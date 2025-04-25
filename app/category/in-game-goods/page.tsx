@@ -26,14 +26,7 @@ export default async function InGameGoodsPage() {
       {/* Hero Section */}
       <div className="relative w-full h-[400px] overflow-hidden">
         <div className="absolute inset-0 w-full h-full">
-          <Image
-            src="/virtual-armory.png"
-            alt="In-Game Goods"
-            fill
-            priority
-            sizes="100vw"
-            className="object-cover"
-          />
+          <Image src="/virtual-armory.png" alt="In-Game Goods" fill priority sizes="100vw" className="object-cover" />
           {/* Gradient overlay */}
           <div className="absolute inset-0 bg-gradient-to-t from-black via-black/70 to-transparent" />
         </div>
